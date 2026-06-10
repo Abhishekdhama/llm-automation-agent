@@ -1,3 +1,33 @@
-__pycache__ 
-.env 
-data/ 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Generated files
+packages.txt
+packages_cache.txt
+
+# Data directory (contains runtime data)
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
